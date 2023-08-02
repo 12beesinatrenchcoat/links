@@ -1,0 +1,115 @@
+{
+	"title": "12beesinatrenchcoat's links",
+	"description": "aka Andy Chan. Human being and wannabe stuff maker. I exist in a lot of places.",
+	"categories": [
+		{
+			"title": "contact",
+			"description": "if you want to say hi",
+			"icon": "comment-solid",
+			"links": [
+				{
+					"title": "andy@12beesinatrenchco.at",
+					"description": "Email. Please no spam.",
+					"link": "mailto:andy@12beesinatrenchco.at"
+				},
+				{
+					"title": "@12beesinatrenchcoat",
+					"description": "Discord. Feel free to send me a message.",
+					"class": "discord"
+				}
+			]
+		},
+		{
+			"title": "works",
+			"description": "where i put the things i make",
+			"icon": "paintbrush-solid",
+			"links": [
+				{
+					"title": "12beesinatrenchco.at",
+					"description": "My personal website! I swear I update it sometimes!",
+					"link": "https://12beesinatrenchco.at"
+				},
+				{
+					"title": "12beesinatrenchcoat",
+					"description": "GitHub. Code stuff (like this webpage!)",
+					"link": "https://github.com/12beesinatrenchcoat"
+				},
+				{
+					"title": "andy chan",
+					"description": "YouTube. Primary channel for videos that mean something to me.",
+					"link": "https://youtube.com/@12beesinatrenchcoat"
+				},
+				{
+					"title": "andy's drunken delusions",
+					"description": "YouTube. Secondary channel for videos I have fun with.",
+					"link": "https://youtube.com/@prowindexdrinker"
+				},
+				{
+					"title": "12beesinatrenchcoat",
+					"description": "itch.io. Maybe I'll put a game here someday.",
+					"link": "https://12beesinatrenchcoat.itch.io"
+				}
+			]
+		},
+		{
+			"title": "socials",
+			"description": "public rambles (these are personal spaces)",
+			"icon": "user-solid",
+			"links": [
+				{
+					"title": "@12beesinatrenchcoat@urusai.social",
+					"description": "Mastodon! Random thoughts in the void. Usually anime related.",
+					"link": "https://urusai.social/@12beesinatrenchcoat"
+				},
+				{
+					"title": "@12beesinatrenchcoat",
+					"description": "Tumblr. Sometimes I say things.",
+					"link": "https://tumblr.com/12beesinatrenchcoat"
+				},
+				{
+					"title": "@12bz_trenchcoat",
+					"description": "Twitter. I'm on here less nowadays.",
+					"class": "deprecated",
+					"link": "https://twitter.com/12bz_trenchcoat"
+				}
+			]
+		},
+		{
+			"title": "interests",
+			"description": "some fun things i like",
+			"icon": "heart-solid",
+			"links": [
+				{
+					"title": "12beesinatrenchcoat",
+					"description": "Apple Music. My streaming platform of choice for reasons.",
+					"link": "https://music.apple.com/profile/12beesinatrenchcoat"
+				},
+				{
+					"title": "12beesinatrenchcoat",
+					"description": "Bandcamp, because you should support artists by buying their stuff.",
+					"link": "https://bandcamp.com/12beesinatrenchcoat"
+				},
+				{
+					"title": "twbztc",
+					"description": "last.fm. For tracking music listens.",
+					"link": "https://last.fm/user/twbztc"
+				},
+				{
+					"title": "prowindexdrinker",
+					"description": "Steam. Usually where I play and buy games.",
+					"link": "https://steamcommunity.com/id/prowindexdrinker/"
+				},
+				{
+					"title": "prowindexdrinkr",
+					"description": "osu! That one circle rhythm game.",
+					"link": "https://osu.ppy.sh/users/4948270"
+				},
+				{
+					"title": "prowindexdrinker",
+					"description": "Kitsu. For the times I consume anime and manga (and actually remember to update the list).",
+					"link": "https://kitsu.io/users/prowindexdrinker"
+				}
+			]
+		}
+	]
+}

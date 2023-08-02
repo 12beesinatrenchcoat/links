@@ -1,0 +1,23 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-ejs": "ejs ./index.ejs -f ./data.json -o ./public/index.html",
+    "build-sass": "sass --style=compressed --no-source-map ./style.sass ./public/style.css",
+    "minify": "html-minifier-terser --collapse-whitespace --sort-attributes --sort-class-name ./public/index.html -o ./public/index.html",
+    "build": "pnpm run build-ejs && pnpm run build-sass && pnpm run minify"
+  },
+  "keywords": [],
+  "author": "Andy Chan (12beesinatrenchcoat) <andy@12beesinatrenchco.at>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "html-minifier-terser": "^7.2.0",
+    "sass": "^1.64.2"
+  },
+  "devDependencies": {
+    "ejs-lint": "^2.0.0"
+  }
+}
