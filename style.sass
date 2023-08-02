@@ -55,10 +55,12 @@ span
 
 /* # Links # */
 a
+	color: inherit
+
+a:not(.unstyled)
 	display: inline-block
 	position: relative
 	text-decoration: none
-	color: inherit
 	padding: 0.5em
 	background: var(--accent)
 	vertical-align: middle
@@ -68,7 +70,7 @@ a
 		box-shadow: inset 0 0 0 8px color-mix(in lch, currentColor, #fff4)
 
 .deprecated
-	text-decoration: line-through
+	text-decoration: line-through !important
 	filter: brightness(0.9) grayscale(0.75)
 
 /* ## Tooltips ## */
