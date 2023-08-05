@@ -47,6 +47,7 @@
 					<a
 						href=<%- link.link || "#" %>
 						<%- link.class ? `class=${link.class}` : "" %>
+						<%- link.rel ? `rel=${link.rel}` : "" %>
 					>
 						<%- link.title %>
 						<span class="tooltip" role="tooltip">

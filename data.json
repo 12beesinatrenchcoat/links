@@ -61,7 +61,8 @@
 				{
 					"title": "@12beesinatrenchcoat@urusai.social",
 					"description": "Mastodon! Random thoughts in the void. Usually anime related. This is where I'm mostly active.",
-					"link": "https://urusai.social/@12beesinatrenchcoat"
+					"link": "https://urusai.social/@12beesinatrenchcoat",
+					"rel": "me"
 				},
 				{
 					"title": "@prowindexdrinker",
