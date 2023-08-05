@@ -1,4 +1,6 @@
 a:not(.unstyled)
+	color: white
+
 	&::before
 		display: inline-block
 		margin: 0 0.5ch 0 0.05ch
@@ -6,11 +8,17 @@ a:not(.unstyled)
 		max-height: 1em
 		width: calc(1em + 0.33ch)
 		content: url("./i/arrow-up-right-from-square-solid.svg")
-
+		filter: invert(1)
 
 	> sub
 		text-decoration: none
 		margin: 0 0.33ch 0 -0.33ch
+
+	&.self
+		background: var(--accent)
+		color: black
+		&::before
+			filter: none
 
 	&[href*="12beesinatrenchco.at"]
 		&::before
@@ -19,99 +27,90 @@ a:not(.unstyled)
 
 	&[href*="music.apple.com"]
 		background: #fa243c
-		color: white
 		&::before
 			content: url("./i/apple-music.svg")
-			filter: invert(1)
+
 
 	&[href*="bandcamp.com"]
 		background: #1da0c3
-		color: white
 		&::before
 			content: url("./i/bandcamp.svg")
-			filter: invert(1)
+
 
 	&[href*="discord.gg"], &.discord
 		background: #5865F2
-		color: white
 		&::before
 			content: url("./i/discord.svg")
 			vertical-align: -0.125em
-			filter: invert(1)
+
 
 	&[href*="github.com"]
 		background: white
 		color: black
-		--filters: invert(0)
 		&::before
 			content: url("./i/github.svg")
+			filter: none
+
+	&[href*="instagram.com"]
+		background: #ff0069 // There's technically a gradient, but screw that
+		&::before
+			content: url("./i/instagram.svg")
 
 	&[href*="itch.io"]
 		background: #fa5c5c
-		color: white
 		&::before
 			content: url("./i/itch-io.svg")
-			filter: invert(1)
+
 
 	&[href*="kitsu.io"]
 		background: #FD755C
-		color: white
 		&::before
 			content: url("./i/kitsu.svg")
-			filter: invert(1)
+
 
 	&[href*="last.fm"]
 		background: #ba0000
-		color: white
 		&::before
 			content: url("./i/lastfm.svg")
-			filter: invert(1)
+
 
 	&[href*="osu"]
 		background: #ff66aa
-		color: white
 		&::before
 			content: url("./i/osu.svg")
-			filter: invert(1)
+
 
 	&[href*="steam"]
 		background: black
-		color: white
 		&::before
 			content: url("./i/steam.svg")
-			filter: invert(1)
+
 
 	&[href*="tumblr.com"]
 		background: #001935
-		color: white
 		&::before
 			content: url("./i/tumblr.svg")
-			filter: invert(1)
+			/* Because non-square aspect ratio. */
 			width: 1.25ch
 			padding: 0 0.25ch
 			vertical-align: -0.225em
 
 	&[href*="twitter.com"]
 		background: #1d9bf0
-		color: white
 		&::before
 			content: url("./i/twitter.svg")
-			filter: invert(1)
 
 	&[href*="urusai.social"] // Mastodon
 		background: #6364FF
-		color: white
 		&::before
 			content: url("./i/mastodon.svg")
 			vertical-align: -0.3em
-			filter: invert(1)
+
 
 	&[href*="youtube.com"]
 		background: #ff0000
-		color: white
 		&::before
 			content: url("./i/youtube.svg")
-			filter: invert(1)
 			vertical-align: -0.125em
 
 	&[href^="mailto:"]

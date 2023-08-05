@@ -10,7 +10,8 @@
 				{
 					"title": "andy@12beesinatrenchco.at",
 					"description": "Email. Please no spam.",
-					"link": "mailto:andy@12beesinatrenchco.at"
+					"link": "mailto:andy@12beesinatrenchco.at",
+					"class": "self"
 				},
 				{
 					"title": "@12beesinatrenchcoat",
@@ -27,7 +28,8 @@
 				{
 					"title": "12beesinatrenchco.at",
 					"description": "My personal website! I swear I update it sometimes!",
-					"link": "https://12beesinatrenchco.at"
+					"link": "https://12beesinatrenchco.at",
+					"class": "self"
 				},
 				{
 					"title": "12beesinatrenchcoat",
@@ -58,8 +60,13 @@
 			"links": [
 				{
 					"title": "@12beesinatrenchcoat@urusai.social",
-					"description": "Mastodon! Random thoughts in the void. Usually anime related.",
+					"description": "Mastodon! Random thoughts in the void. Usually anime related. This is where I'm mostly active.",
 					"link": "https://urusai.social/@12beesinatrenchcoat"
+				},
+				{
+					"title": "@prowindexdrinker",
+					"description": "Instagram. I post photos or videos or something.",
+					"link": "https://instagram.com/prowindexdrinker"
 				},
 				{
 					"title": "@12beesinatrenchcoat",
