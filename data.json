@@ -55,7 +55,7 @@
 		},
 		{
 			"title": "socials",
-			"description": "public rambles (these are personal spaces)",
+			"description": "public rambles sometimes (never). (these are personal spaces!)",
 			"icon": "user-solid",
 			"links": [
 				{
@@ -65,20 +65,19 @@
 					"rel": "me"
 				},
 				{
+					"title": "@12bz_trenchcoat",
+					"description": "Twitter. Or now X. I don't know what I post here.",
+					"link": "https://twitter.com/12bz_trenchcoat"
+				},
+				{
 					"title": "@prowindexdrinker",
 					"description": "Instagram. I post photos or videos or something.",
 					"link": "https://instagram.com/prowindexdrinker"
 				},
 				{
 					"title": "@12beesinatrenchcoat",
-					"description": "Tumblr. Sometimes I say things.",
+					"description": "Tumblr. It exists! I don't say a lot.",
 					"link": "https://tumblr.com/12beesinatrenchcoat"
-				},
-				{
-					"title": "@12bz_trenchcoat",
-					"description": "Twitter. I'm on here less nowadays.",
-					"class": "deprecated",
-					"link": "https://twitter.com/12bz_trenchcoat"
 				}
 			]
 		},
