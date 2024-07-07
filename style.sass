@@ -6,21 +6,28 @@ $l: 1.5em
 $n: 1em
 $sm: 0.667em
 
-:root
-	--background: #66f06040
-	--accent: #66f060
+$bg: #66f060
 
 *
 	margin: 0
 
 html
-	font-size: 24px
+	font-size: clamp(12px, 1.304vw + 7.304px, 24px)
 	box-sizing: border-box
 
 body
-	background: var(--background)
+	background: mix($bg, white, 25%)
+	color: black
 	font-family: "Open Sans", sans-serif
 	margin: 4em 10%
+
+@media (prefers-color-scheme: dark)
+	body
+		background: mix($bg, #000010, 15%)
+		color: white
+
+	img.category-icon
+		filter: invert(100%)
 
 /* # Layout */
 body > * + *
@@ -58,33 +65,61 @@ a
 	color: inherit
 
 a:not(.unstyled)
-	display: inline-block
+	display: flex
+	flex-direction: column
 	position: relative
 	text-decoration: none
-	padding: 0.5em
 	vertical-align: middle
+	color: var(--fg)
+
+	&:hover
+		filter: brightness(1.15)
+
+		@media (prefers-color-scheme: light)
+			> .description
+				border-bottom: 0.125rem var(--fg) solid
+
+		@media (prefers-color-scheme: dark)
+			filter: brightness(1.33)
+
+	> *
+		background: var(--accent, #66f060)
+		display: inline-block
+		padding: 0.5ch
+		border: 0.125rem solid transparent
+
+		&.title
+			width: fit-content
+			font-size: $sm
+			padding-bottom: 0
+			border-bottom: 0 !important
+
+		&.description
+			padding-top: 0
+			font-size: $sm
+			border-top: 0 !important
+
+		@media (prefers-color-scheme: dark)
+			background: linear-gradient(#222a, #222a), linear-gradient(var(--accent), var(--accent))
+			color: white !important
+
+			&.title
+				border: solid var(--accent)
+
+			&.handle
+				border: solid var(--accent)
+				border-bottom: dashed var(--accent)
+
+			&.description
+				border: solid var(--accent)
+
+
 
 	&:hover
 		--color: currentColor
-		box-shadow: inset 0 0 0 8px color-mix(in lch, currentColor, #fff4)
 
 .deprecated
 	text-decoration: line-through !important
 	filter: brightness(0.9) grayscale(0.75)
 
-/* ## Tooltips ## */
-a > .tooltip
-	display: none
 
-a:hover > .tooltip
-	display: inline-block
-	position: absolute
-	background: inherit
-	padding: 0.5ch
-	left: 0
-	bottom: 100%
-	font-size: $sm
-	z-index: 2
-
-.tooltip:hover
-	display: none !important

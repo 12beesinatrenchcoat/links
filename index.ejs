@@ -14,14 +14,15 @@
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://links.12beesinatrenchco.at"/>
 	<meta property="og:image" content=""/>
-	<meta property="description" content="<%- description %>">
+	<meta property="og:description" content="<%- description %>">
 </head>
 <body>
-	<!-- Hi! If you're looking for code, please check out https://github.com/12beesinatrenchcoat/links. Thanks! <3 -->
+	<!-- Hi! If you're looking for code, please check out https://github.com/12beesinatrenchcoat/links. -->
 	<div>
-		<h1>
-			<%- title %>
-		</h1>
+		<span>
+			<h1>links</h1>
+			.12beesinatrenchco.at
+		</span>
 		<p>
 			<%- description %>
 		</p>
@@ -31,6 +32,7 @@
 		<div class="category">
 			<span>
 				<img
+					class="category-icon"
 					src="<%- "./i/" + category.icon + ".svg" %>"
 					alt="<%- category.icon + " icon" %>"
 				>
@@ -49,8 +51,9 @@
 						<%- link.class ? `class=${link.class}` : "" %>
 						<%- link.rel ? `rel=${link.rel}` : "" %>
 					>
-						<%- link.title %>
-						<span class="tooltip" role="tooltip">
+						<span class="title"><%- link.title %></span>
+						<span class="handle"><%- link.handle %></span>
+						<span class="description">
 							<%- link.description %>
 						</span>
 					</a>
