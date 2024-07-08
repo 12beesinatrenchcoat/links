@@ -10,14 +10,14 @@
 				{
 					"title": "Email",
 					"handle": "andy@12beesinatrenchco.at",
-					"description": "Please don't spam.",
+					"description": "Preferred. Please no spam.",
 					"link": "mailto:andy@12beesinatrenchco.at",
 					"class": "self"
 				},
 				{
 					"title": "Discord",
 					"handle": "@12beesinatrenchcoat",
-					"description": "Feel free to send me a message.",
+					"description": "If you prefer messages.",
 					"class": "discord"
 				}
 			]
@@ -43,26 +43,26 @@
 				{
 					"title": "YouTube",
 					"handle": "andy chan",
-					"description": "Primary channel for videos that mean something to me.",
+					"description": "More serious, personal videos. Eventually ",
 					"link": "https://youtube.com/@12beesinatrenchcoat"
 				},
 				{
-					"title": "YouTube (Secondary)",
+					"title": "YouTube (secondary)",
 					"handle": "andy's drunken delusions",
-					"description": "Secondary channel for videos I have fun with.",
+					"description": "<q>Secondary</q> channel for more silly content.",
 					"link": "https://youtube.com/@prowindexdrinker"
 				}
 			]
 		},
 		{
 			"title": "socials",
-			"description": "public rambles sometimes (never). (these are personal spaces!)",
+			"description": "random things. (these are personal spaces!)",
 			"icon": "user-solid",
 			"links": [
 				{
 					"title": "Twitter",
 					"handle": "@12bztc",
-					"description": "Currently known as X, I guess.",
+					"description": "Currently known as X. Mostly just reposts now.",
 					"link": "https://twitter.com/12bztc"
 				},
 				{
@@ -75,14 +75,14 @@
 				{
 					"title": "Instagram",
 					"handle": "@prowindexdrinker",
-					"description": "I post photos or videos or something.",
+					"description": "Photos and videos? Maybe?",
 					"link": "https://instagram.com/prowindexdrinker"
 				}
 			]
 		},
 		{
 			"title": "interests",
-			"description": "some fun things i like",
+			"description": "things i like (also personal spaces!)",
 			"icon": "heart-solid",
 			"links": [
 				{

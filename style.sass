@@ -12,7 +12,8 @@ $bg: #66f060
 	margin: 0
 
 html
-	font-size: clamp(12px, 1.304vw + 7.304px, 24px)
+	/* 14px @ 360 width, 24px @ 1280 width */
+	font-size: clamp(12px, 1.087vw + 10.09px, 24px)
 	box-sizing: border-box
 
 body
@@ -77,7 +78,7 @@ a:not(.unstyled)
 
 		@media (prefers-color-scheme: light)
 			> .description
-				border-bottom: 0.125rem var(--fg) solid
+				border-color: var(--fg) !important
 
 		@media (prefers-color-scheme: dark)
 			filter: brightness(1.33)
@@ -86,7 +87,11 @@ a:not(.unstyled)
 		background: var(--accent, #66f060)
 		display: inline-block
 		padding: 0.5ch
-		border: 0.125rem solid transparent
+		border: 0 solid transparent
+		border-width: 0.1rem
+
+		@media (max-width: 480px)
+			border-width: 1px
 
 		&.title
 			width: fit-content
@@ -104,14 +109,14 @@ a:not(.unstyled)
 			color: white !important
 
 			&.title
-				border: solid var(--accent)
+				border-color: var(--accent)
 
 			&.handle
-				border: solid var(--accent)
-				border-bottom: dashed var(--accent)
+				border-color: var(--accent)
+				border-bottom-style: dashed
 
 			&.description
-				border: solid var(--accent)
+				border-color: var(--accent)
 
 
 
