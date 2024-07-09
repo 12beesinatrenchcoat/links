@@ -7,7 +7,9 @@ Brand icons are from Font Awesome (https://fontawesome.com), and are likely trad
 
 "apple-music.svg" is taken from Apple Music's Identity Guidelines (https://www.apple.com/itunes/marketing-on-music/identity-guidelines.html#apple-music-icon).
 
+"etterna.svg" is a cropped and edited version of the Etterna logo. (https://beta.etternaonline.com)
+
 "osu.svg" is based on the osu! standard mode icon. See also: https://github.com/12beesinatrenchcoat/circle-scrobbler/tree/master/icons
 
 "kitsu.svg" is taken from the kitsu-web repo - it's their favicon.
-Not entirely sure if I'm allowed to use this one.(https://github.com/hummingbird-me/kitsu-web/blob/react/src/assets/favicon.svg)
+Not entirely sure if I'm allowed to use this one. (https://github.com/hummingbird-me/kitsu-web/blob/react/src/assets/favicon.svg)

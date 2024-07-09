@@ -8,17 +8,18 @@
 			"icon": "comment-solid",
 			"links": [
 				{
-					"title": "Email",
-					"handle": "andy@12beesinatrenchco.at",
-					"description": "Preferred. Please no spam.",
-					"link": "mailto:andy@12beesinatrenchco.at",
-					"class": "self"
-				},
-				{
 					"title": "Discord",
 					"handle": "@12beesinatrenchcoat",
-					"description": "If you prefer messages.",
+					"description": "Faster responses if I'm online.",
+					"action": "copy",
 					"class": "discord"
+				},
+				{
+					"title": "Email",
+					"handle": "andy@12beesinatrenchco.at",
+					"description": "Please no spam.",
+					"link": "mailto:andy@12beesinatrenchco.at",
+					"class": "self"
 				}
 			]
 		},
@@ -43,13 +44,13 @@
 				{
 					"title": "YouTube",
 					"handle": "andy chan",
-					"description": "More serious, personal videos. Eventually.",
+					"description": "Serious-ish, personal videos. Eventually.",
 					"link": "https://youtube.com/@12beesinatrenchcoat"
 				},
 				{
 					"title": "YouTube (secondary)",
 					"handle": "andy's drunken delusions",
-					"description": "<q>Secondary</q> channel for more silly content.",
+					"description": "<q>Secondary</q> channel for having fun.",
 					"link": "https://youtube.com/@prowindexdrinker"
 				}
 			]
@@ -62,7 +63,7 @@
 				{
 					"title": "Twitter",
 					"handle": "@12bztc",
-					"description": "Currently known as X. Mostly just reposts now.",
+					"description": "Currently known as X. Mostly just reposts.",
 					"link": "https://twitter.com/12bztc"
 				},
 				{
@@ -114,6 +115,12 @@
 					"handle": "prowindexdrinkr",
 					"description": "That one circle rhythm game.",
 					"link": "https://osu.ppy.sh/users/4948270"
+				},
+				{
+					"title": "Etterna",
+					"handle": "prowindexdrinker",
+					"description": "*keysmashing intensifies*",
+					"link": "https://beta.etternaonline.com/users/prowindexdrinker"
 				}
 			]
 		}

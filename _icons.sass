@@ -33,12 +33,10 @@ a:not(.unstyled)
 		> .handle::before
 			content: url("./i/apple-music.svg")
 
-
 	&[href*="bandcamp.com"]
 		--accent: #1da0c3
 		> .handle::before
 			content: url("./i/bandcamp.svg")
-
 
 	&[href*="discord.gg"], &.discord
 		--accent: #5865F2
@@ -46,6 +44,11 @@ a:not(.unstyled)
 			content: url("./i/discord.svg")
 			vertical-align: -0.125em
 
+	&[href*="etternaonline.com"]
+		--accent: #9060F6
+		> .handle::before
+			content: url("./i/etterna.svg")
+			vertical-align: 0em
 
 	&[href*="github.com"]
 		--accent: white
@@ -64,30 +67,25 @@ a:not(.unstyled)
 		> .handle::before
 			content: url("./i/itch-io.svg")
 
-
 	&[href*="kitsu.io"]
 		--accent: #FD755C
 		> .handle::before
 			content: url("./i/kitsu.svg")
-
 
 	&[href*="last.fm"]
 		--accent: #ba0000
 		> .handle::before
 			content: url("./i/lastfm.svg")
 
-
 	&[href*="osu"]
 		--accent: #ff66aa
 		> .handle::before
 			content: url("./i/osu.svg")
 
-
 	&[href*="steam"]
 		--accent: black
 		> .handle::before
 			content: url("./i/steam.svg")
-
 
 	&[href*="tumblr.com"]
 		--accent: #001935
@@ -108,7 +106,6 @@ a:not(.unstyled)
 		> .handle::before
 			content: url("./i/mastodon.svg")
 			vertical-align: -0.3em
-
 
 	&[href*="youtube.com"]
 		--accent: #ff0000
