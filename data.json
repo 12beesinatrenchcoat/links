@@ -49,7 +49,7 @@
 				},
 				{
 					"title": "YouTube (secondary)",
-					"handle": "andy's drunken delusions",
+					"handle": "andy's drunken disasters",
 					"description": "<q>Secondary</q> channel for having fun.",
 					"link": "https://youtube.com/@prowindexdrinker"
 				}
@@ -61,17 +61,17 @@
 			"icon": "user-solid",
 			"links": [
 				{
-					"title": "Twitter",
-					"handle": "@12bztc",
-					"description": "Currently known as X. Mostly just reposts.",
-					"link": "https://twitter.com/12bztc"
+					"title": "Bluesky",
+					"handle": "@12beesinatrenchco.at",
+					"description": "Short rambles and art reposts.",
+					"link": "https://bsky.app/profile/12beesinatrenchco.at"
 				},
 				{
-					"title": "Mastodon",
-					"handle": "@12beesinatrenchcoat@urusai.social",
-					"description": "Thoughts on weeb stuff sometimes.",
-					"link": "https://urusai.social/@12beesinatrenchcoat",
-					"rel": "me"
+					"title": "Twitter",
+					"handle": "@12bztc",
+					"class": "deprecated",
+					"description": "Currently known as X. More on Bluesky now.",
+					"link": "https://twitter.com/12bztc"
 				},
 				{
 					"title": "Instagram",

@@ -56,7 +56,7 @@ span
 		display: inline
 
 	> h2
-		margin: inherit 0.25ch
+		margin: 0 0.33ch
 
 	> img
 		height: $n
@@ -75,43 +75,26 @@ a:not(.unstyled)
 
 	&:hover
 		--color: currentColor
-
-		filter: brightness(1.15)
-
-		@media (prefers-color-scheme: light)
-			> *
-				border-color: var(--fg) !important
-
-		@media (prefers-color-scheme: dark)
-			filter: brightness(1.33)
+		filter: brightness(1.1)
 
 	> *
 		background: var(--accent, #66f060)
 		display: inline-block
 		padding: 0.25ch 0.5ch
-		border: 0 solid transparent
-		border-width: 0.1rem
-
-		@media (max-width: 480px)
-			border-width: 1px
 
 		&.title
-			border-bottom: 0 !important
 			font-size: $sm
 			width: fit-content
 
 		&.handle
 			padding: 0.5ch 0.75ch 0.5ch 0.5ch
-			border-bottom-style: dashed
 
 		&.description
 			font-size: $sm
-			border-top: 0 !important
 			background: linear-gradient(#2221, #2221), linear-gradient(var(--accent), var(--accent))
 
 		@media (prefers-color-scheme: dark)
-			background: linear-gradient(#2229, #2229), linear-gradient(var(--accent), var(--accent))
-			border-color: var(--accent)
+			background: linear-gradient(#2226, #2226), linear-gradient(var(--accent), var(--accent))
 			color: white !important
 
 			&.description
@@ -119,3 +102,6 @@ a:not(.unstyled)
 .deprecated
 	text-decoration: line-through !important
 	filter: brightness(0.9) grayscale(0.75)
+
+	&:hover
+		filter: brightness(1.0) grayscale(0.75) !important

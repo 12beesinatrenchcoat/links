@@ -38,6 +38,12 @@ a:not(.unstyled)
 		> .handle::before
 			content: url("./i/bandcamp.svg")
 
+	&[href*="bsky.app"]
+		--accent: #0385FF
+		> .handle::before
+			content: url("./i/bluesky.svg")
+			vertical-align: 0em
+
 	&[href*="discord.gg"], &.discord
 		--accent: #5865F2
 		> .handle::before

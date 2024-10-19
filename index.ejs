@@ -1,70 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><%- title %></title>
-	<link rel="stylesheet" href="./style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="icon" href="./favicon.ico" sizes="32x32">
-	<link rel="icon" href="./favicon.svg" type="image/svg+xml">
-	<meta property="og:title" content="<%- title %>" />
-	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://links.12beesinatrenchco.at"/>
-	<meta property="og:image" content=""/>
-	<meta property="og:description" content="<%- description %>">
-</head>
-<body>
-	<!-- Hi! If you're looking for code, please check out https://github.com/12beesinatrenchcoat/links. -->
-	<div>
-		<span>
-			<h1>links</h1>
-			.12beesinatrenchco.at
-		</span>
-		<p>
-			<%- description %>
-		</p>
-	</div>
 
-	<% categories.forEach(category => { %>
-		<div class="category">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title><%- title %></title>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="icon" href="./favicon.ico" sizes="32x32">
+		<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+		<meta property="og:title" content="<%- title %>" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://links.12beesinatrenchco.at" />
+		<meta property="og:image" content="" />
+		<meta property="og:description" content="<%- description %>">
+	</head>
+
+	<body>
+		<!-- Hi! If you're looking for code, please check out https://github.com/12beesinatrenchcoat/links. -->
+		<div>
 			<span>
-				<img
-					class="category-icon"
-					src="<%- "./i/" + category.icon + ".svg" %>"
-					alt="<%- category.icon + " icon" %>"
-				>
-				<h2>
-					<%- category.title %>
-				</h2>
-				<p>
-					<%- category.description %>
-				</p>
+				<h1>links</h1>
+				.12beesinatrenchco.at
 			</span>
-
-			<div class="links">
-				<% category.links.forEach(link => { %>
-					<a
-						href=<%- link.link || "#" %>
-						<%- link.class ? `class=${link.class}` : "" %>
-						<%- link.rel ? `rel=${link.rel}` : "" %>
-					>
-						<span class="title"><%- link.title %></span>
-						<span class="handle"><%- link.handle %></span>
-						<span class="description">
-							<%- link.description %>
-						</span>
-					</a>
-
-				<% }) %>
-			</div>
-
+			<p>
+				<%- description %>
+			</p>
 		</div>
-	<% }); %>
 
-	<p>The source code for this website can be found on <a class="unstyled" href="https://github.com/12beesinatrenchcoat/links">GitHub</a>.</p>
+		<% categories.forEach(category=> { %>
+			<div class="category">
+				<span class="category-header">
+					<img class="category-icon" src="<%- " ./i/" + category.icon + ".svg" %>"
+					alt="<%- category.icon + " icon" %>"
+						>
+						<h2>
+							<%- category.title %>
+						</h2>
+						<p>
+							<%- category.description %>
+						</p>
+				</span>
 
-</body>
+				<div class="links">
+					<% category.links.forEach(link=> { %>
+						<a href=<%- link.link || "#" %>
+							<%- link.class ? `class=${link.class}` : "" %>
+								<%- link.rel ? `rel=${link.rel}` : "" %>
+									>
+									<span class="title"><%- link.title %></span>
+									<span class="handle"><%- link.handle %></span>
+									<span class="description">
+										<%- link.description %>
+									</span>
+						</a>
+
+						<% }) %>
+				</div>
+
+			</div>
+			<% }); %>
+
+				<p>The source code for this website can be found on <a class="unstyled"
+						href="https://github.com/12beesinatrenchcoat/links">GitHub</a>.</p>
+
+	</body>
+
 </html>
